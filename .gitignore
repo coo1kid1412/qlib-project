@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Output files
+output/
+*.pt
+*.ckpt
+*.log
+
+# Virtual env
+qlib_env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Qlib data (too large)
+*.bin
+stock2concept.npy
+stock_index.npy
